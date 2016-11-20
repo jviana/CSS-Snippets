@@ -1,0 +1,26 @@
+ <style>
+    /*
+    Declaring variables on the :root pseudo-element
+    */
+    :root {
+        --infocolor:    #337AB7;
+        --successcolor: #5CB85C;
+        --dangercolor:  #D9534F;
+    }
+    /*
+    Set variables anywhere in your css document
+    */
+    .info-text {
+        color: var(--infocolor);
+    }
+    .success-text {
+        color: var(--successcolor);
+    } 
+    .danger-text {
+        color: var(--dangercolor);
+    } 
+</style>
+
+<h1 class="info-text">Just testing (info)...</h1>
+<h1 class="success-text">Just testing (success)...</h1>
+<h1 class="danger-text">Just testing (danger)...</h1>
