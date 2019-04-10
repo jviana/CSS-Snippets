@@ -8,7 +8,7 @@ Declaring variables on the :root pseudo-element
 }
 
 /* ===============================================
-Declaring variables on the :root pseudo-element
+Using variables
 ================================================ */
 .info-text {
     color: var(--infocolor);
