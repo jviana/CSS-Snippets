@@ -1,0 +1,25 @@
+/* ===============================================
+Truncate text with ellipsis
+================================================ */
+.title {
+    width: 300px;
+    padding: 20px;
+    font-size: 1.3rem;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    
+    margin: 0;
+    background: #ffffff;
+    resize: horizontal;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    background: #ccc;
+}
