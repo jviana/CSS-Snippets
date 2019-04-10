@@ -1,2 +1,3 @@
 # CSS-Snippets
-[a relative link](rfs.html)
+* [Variables](variables.css)
+* [Responsive Font Size](rfs.css)
